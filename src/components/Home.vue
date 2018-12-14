@@ -114,7 +114,7 @@
                 <v-card-text class="text-xs-center">
                   <v-layout row wrap>
                     <v-flex xs12 md2 offset-md3>
-                      <v-icon class="pink--text text--darken-4">phone</v-icon> (849)-220-6863
+                      <v-icon class="pink--text text--darken-4">phone</v-icon> (849)-220-6883
                     </v-flex>
                     <v-flex xs12 md2>
                       <v-icon class="pink--text text--darken-4">email</v-icon> info@cubicalconsulting.com
