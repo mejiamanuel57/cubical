@@ -11,3 +11,10 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+# Local configurations
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc.js
+.postcssrc.js
