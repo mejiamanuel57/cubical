@@ -1,6 +1,6 @@
-# cubicalconsulting
+# Cubical Consulting
 
-> Website of cu[CCubical website.bical.
+> [The Cubical website repo](http://cubicalconsulting.com/?Website).
 
 ## Build Setup
 
@@ -12,7 +12,7 @@ npm install
 npm run dev
 
 # build for production with minification
-npm run build
+npm run deploy
 
 # build for production and view the bundle analyzer report
 npm run build --report
