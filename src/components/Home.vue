@@ -1,16 +1,10 @@
 <template>
   <div>
     <v-content>
-      <!-- <section>
-        <v-layout column align-center justify-center class="white white--text">
-          <img src="/static/cubicalLogo.png" alt="Vuetify.js" height="100">
-        </v-layout>
-      </section>-->
       <section>
         <v-layout align-center justify-center class="white black--text">
           <div class="head">
-            <!-- <h1 class="slogan-part1">Business partners</h1> -->
-            <img class="logo" src="/static/cubicalLogo.png" alt="Vuetify.js">
+            <img class="logo" src="@/assets/cubicalLogo.png" alt="Vuetify.js">
             <h1 class="slogan">Consultoría de negocios especializada</h1>
           </div>
           <canvas id="canvas"></canvas>
@@ -18,7 +12,7 @@
       </section>
       <hr class="pink darken-4">
       <section>
-        <v-layout column wrap class="my-5" align-center>
+        <v-layout column wrap class="my-5 align-center">
           <v-flex xs12 sm4 class="my-3">
             <div class="text-xs-center">
               <h2 class="display-1">Servicios</h2>
@@ -26,19 +20,19 @@
           </v-flex>
           <v-flex xs12>
             <v-container grid-list-xl>
-              <v-layout row wrap align-center>
-                <v-flex xs12 md4>
+              <v-layout row wrap>
+                <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
                       <v-icon x-large class="pink--text text--darken-4">360</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Planificación financiera 360</div>
+                      <div class="headline">Planificación financiera 360</div>
                     </v-card-title>
-                    <v-card-text>Planificación integral y personalizada a las necesidades de tu empresa. En Cubical estudiamos tu modelo de negocios para entender los indicadores que impactan el crecimiento y asegurar una planificación certera pero retadora. También diseñamos procesos de seguimiento a metas y procuramos el envolvimiento de todas las áreas de la empresa para garantizar los resultados financieros proyectados</v-card-text>
+                    <v-card-text>Planificación integral y personalizada a las necesidades de tu empresa. En Cubical estudiamos tu modelo de negocios para entender los indicadores que impactan el crecimiento y asegurar una planificación certera pero retadora. También diseñamos procesos de seguimiento a metas y procuramos el envolvimiento de todas las áreas de la empresa para garantizar los resultados financieros proyectados.</v-card-text>
                   </v-card>
                 </v-flex>
-                <v-flex xs12 md4>
+                <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
                       <v-icon x-large class="pink--text text--darken-4">build</v-icon>
@@ -49,39 +43,37 @@
                     <v-card-text>Levantamiento y optimización de los procesos administrativos de tu empresa procurando que existan todos los controles necesarios para que pueda operar de forma robusta sin seguimiento excesivo de la gerencia.</v-card-text>
                   </v-card>
                 </v-flex>
-                <v-flex xs12 md4>
+                <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
                       <v-icon x-large class="pink--text text--darken-4">search</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div
-                        class="headline text-xs-center"
-                      >Análisis de estados e indicadores financieros</div>
+                      <div class="headline">Análisis de estados e indicadores financieros</div>
                     </v-card-title>
                     <v-card-text>Interpretación de resultados, flujo de efectivo, balance general e indicadores financieros de forma sencilla. resaltando posibles riesgos futuros y acompañando al equipo de dirección en la toma de decisiones estratégicas que usualmente se derivan de los análisis financieros holísticos.</v-card-text>
                   </v-card>
                 </v-flex>
-                <v-flex xs12 md4 offset-md2>
+                <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
                       <v-icon x-large class="pink--text text--darken-4">create</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
                       <div
-                        class="headline text-xs-center"
+                        class="headline"
                       >Diseño de tableros de seguimiento (definición y seguimiento de KPIs)</div>
                     </v-card-title>
                     <v-card-text>Confección de herramientas de control que permitan a la gerencia la toma de decisiones acertadas y oportunas usando indicadores de desempeño.</v-card-text>
                   </v-card>
                 </v-flex>
-                <v-flex xs12 md4>
+                <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
                       <v-icon x-large class="pink--text text--darken-4">school</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Entrenamientos</div>
+                      <div class="headline">Entrenamientos</div>
                     </v-card-title>
                     <v-card-text>Entrenamientos especializados para asegurar el apego a las políticas de la empresa. Algunos entrenamientos son: control de activos fijos, medidas de seguridad antifraude y planificación.</v-card-text>
                   </v-card>
@@ -93,7 +85,7 @@
       </section>
 
       <section>
-        <v-parallax src="/static/section.jpg" height="380">
+        <v-parallax :src="require('@/assets/section.jpg')" height="380">
           <v-layout column align-center justify-center>
             <div
               class="display-1 white--text mb-3 text-xs-center"
@@ -103,31 +95,29 @@
       </section>
 
       <section>
-        <v-container>
-          <v-layout row wrap justify-center class="my-5">
-            <v-flex xs12>
-              <v-card class="elevation-0 transparent">
-                <v-card-title primary-title class="layout justify-center mb-4">
-                  <h2 class="display-1">Contacto</h2>
-                </v-card-title>
+        <v-layout class="my-5">
+          <v-flex xs12>
+            <v-card class="elevation-0 transparent">
+              <v-card-title primary-title class="layout justify-center mb-4">
+                <h2 class="display-1">Contacto</h2>
+              </v-card-title>
 
-                <v-card-text class="text-xs-center">
-                  <v-layout row wrap>
-                    <v-flex xs12 md2 offset-md3>
-                      <v-icon class="pink--text text--darken-4">phone</v-icon> (849)-220-6883
-                    </v-flex>
-                    <v-flex xs12 md2>
-                      <v-icon class="pink--text text--darken-4">email</v-icon> info@cubicalconsulting.com
-                    </v-flex>
-                    <v-flex xs12 md2>
-                      <v-icon class="pink--text text--darken-4">place</v-icon> Santo Domingo, D.R.
-                    </v-flex>
-                  </v-layout>
-                </v-card-text>
-              </v-card>
-            </v-flex>
-          </v-layout>
-        </v-container>
+              <v-card-text>
+                <v-layout row wrap class="text-xs-center">
+                  <v-flex xs12 md2 offset-md3>
+                    <v-icon class="pink--text text--darken-4">phone</v-icon> (849)-220-6883
+                  </v-flex>
+                  <v-flex xs12 md2>
+                    <v-icon class="pink--text text--darken-4">email</v-icon> info@cubicalconsulting.com
+                  </v-flex>
+                  <v-flex xs12 md2>
+                    <v-icon class="pink--text text--darken-4">place</v-icon> Santo Domingo, D.R.
+                  </v-flex>
+                </v-layout>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+        </v-layout>
       </section>
 
       <v-footer class="pink darken-4">
