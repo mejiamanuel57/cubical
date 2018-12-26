@@ -1,6 +1,8 @@
 # Cubical Consulting
 
-> [The Cubical website repo](http://cubicalconsulting.com/?Website).
+> [cubicalconsulting.com](http://cubicalconsulting.com/).
+
+Feel free to use this repo as a template for any personal project:
 
 ## Build Setup
 
