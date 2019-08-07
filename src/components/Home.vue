@@ -26,7 +26,7 @@
       <v-flex xs12>
         <v-layout wrap>
           <v-flex xs12 md6>
-            <v-card outlined height="170">
+            <v-card outlined min-height="170">
               <v-container>
                 <v-icon x-large color="secondary">
                   mdi-cached
@@ -39,7 +39,7 @@
             </v-card>
           </v-flex>
           <v-flex xs12 md6>
-            <v-card outlined height="170">
+            <v-card outlined min-height="170">
               <v-container>
                 <v-icon x-large color="secondary">
                   mdi-wrench
@@ -52,7 +52,7 @@
             </v-card>
           </v-flex>
           <v-flex xs12 md6>
-            <v-card outlined height="200">
+            <v-card outlined min-height="200">
               <v-container>
                 <v-icon x-large color="secondary">
                   mdi-magnify
@@ -65,7 +65,7 @@
             </v-card>
           </v-flex>
           <v-flex xs12 md6>
-            <v-card outlined height="200">
+            <v-card outlined min-height="200">
               <v-container>
                 <v-icon x-large color="secondary">
                   mdi-school
