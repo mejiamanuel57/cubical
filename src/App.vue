@@ -1,18 +1,24 @@
 <template>
-  <div id="app">
-    <v-app>
-      <Home/>
-    </v-app>
-  </div>
+  <v-app>
+    <v-content>
+      <Home />
+    </v-content>
+    <Footer />
+  </v-app>
 </template>
 
 <script>
-import Home from './components/Home'
+import Home from './components/Home';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
   components: {
-    Home
-  }
-}
+    Home,
+    Footer
+  },
+  data: () => ({
+    //
+  }),
+};
 </script>
