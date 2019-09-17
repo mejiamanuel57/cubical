@@ -1,24 +1,25 @@
 <template>
   <v-app>
+    <TopPanel />
     <v-content>
-      <Home />
+      <router-view />
     </v-content>
     <Footer />
   </v-app>
 </template>
 
 <script>
-import Home from './components/Home';
-import Footer from './components/Footer';
+import TopPanel from './components/shared/topPanel'
+import Footer from './components/shared/footer'
 
 export default {
   name: 'App',
   components: {
-    Home,
+    TopPanel,
     Footer
   },
   data: () => ({
     //
-  }),
-};
+  })
+}
 </script>
