@@ -18,7 +18,7 @@ npm run dev
 npm run build
 ```
 
-### Build and Deploy to production (GitHub)
+### Build for GitHub deployment
 
 ```bash
 npm run deploy
