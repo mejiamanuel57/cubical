@@ -33,7 +33,7 @@
                     </li>
                   </ul>
                   <v-card-actions class="justify-center">
-                    <v-btn color="secondary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cubical/30minfree?primary_color=15975a'});return false;">
+                    <v-btn color="secondary" to="/contact">
                       Schedule a Meeting
                     </v-btn>
                   </v-card-actions>
@@ -49,9 +49,7 @@
 
 <script>
 import data from '@/data/data.json'
-import calendlyMixin from '@/mixins/calendlyMixin.js'
 export default {
-  mixins: [calendlyMixin],
   data () {
     return {
       services: data.services
@@ -59,7 +57,3 @@ export default {
   }
 }
 </script>
-
-<style>
-@import 'https://assets.calendly.com/assets/external/widget.css';
-</style>

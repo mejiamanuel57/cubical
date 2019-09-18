@@ -12,7 +12,7 @@
             <h3 class="display-1 mb-3">
               Our mission is to turn your information into strategy
             </h3>
-            <v-btn color="secondary" large onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cubical/30minfree?primary_color=15975a'});return false;">
+            <v-btn color="secondary" large to="/contact">
               Schedule a Meeting
             </v-btn>
           </v-container>
@@ -53,9 +53,7 @@
 
 <script>
 import data from '@/data/data.json'
-import calendlyMixin from '@/mixins/calendlyMixin.js'
 export default {
-  mixins: [calendlyMixin],
   data () {
     return {
       services: data.services

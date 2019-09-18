@@ -14,8 +14,11 @@
 </template>
 
 <script>
-import calendlyMixin from '@/mixins/calendlyMixin.js'
 export default {
-  mixins: [calendlyMixin]
+  mounted () {
+    const calendlyScript = document.createElement('script')
+    calendlyScript.setAttribute('src', 'https://assets.calendly.com/assets/external/widget.js')
+    document.head.appendChild(calendlyScript)
+  }
 }
 </script>

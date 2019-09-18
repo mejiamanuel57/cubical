@@ -3,7 +3,7 @@
         {
           "name": "Planning 360",
           "icon": "mdi-cached",
-          "description": "Planning can make the difference between a successful year/project and an unsuccessful one.With a robust process for gathering information, brainstorming ideas, defining the right strategy,financial modelling, and scenario testing, in Cubical we dominate the art of planning.",
+          "description": "Planning can make the difference between a successful year/project and an unsuccessful one.With a robust process for gathering information, brainstorming ideas, defining the right strategy, financial modelling, and scenario testing, in Cubical we dominate the art of planning.",
           "features": [
             {
               "name": "Strategy revision/definition",
@@ -38,11 +38,11 @@
         {
           "name": "Rolling Forecast",
           "icon": "mdi-finance",
-          "description": "Plans are not supposed to stay at a binder in your bookshelf. Business plans need to be revised and your tactics must be adapted as new opportunities and challenges are encountered in your way to success. In Cubical, we provide you with monthly reports, forecast adjustments, and management presentations to make sure you can react on time and get to your desired bottom line.",
+          "description": "Plans are not supposed to stay at a binder in your bookshelf. Business plans need to be revised and your tactics must be adapted as new opportunities and challenges are encountered in your way to success. At Cubical, we provide you with monthly reports, forecast adjustments, and management presentations to make sure you can react on time and get to your desired bottom line.",
           "features": [
             {
               "name": "Real vs Projected performance reports",
-              "description": "Analysis of the real performance vs the expected. This allows management to identify succesful and unproductive actions within the strategy. It is the best way to adjust the plan as the business continues its operations."
+              "description": "Analysis of the real performance vs the expected. This allows management to identify successful and unproductive actions within the strategy. It is the best way to adjust the plan as the business continues its operations."
             },
             {
               "name": "Forecast Updates",
@@ -61,7 +61,7 @@
         {
           "name": "Process Assessment",
           "icon": "mdi-file-document-box-check",
-          "description": "One of the biggest challenges of growing your business is having lean and robust processes. This the only way of using your resources optimally while having complete control of your operations. We examine your processes using the best techniques to identify wastes and risks, and summarize our findings in a way that you can easily use our assessment as the guideline for your next continuous improvement projects.",
+          "description": "One of the biggest challenges of growing your business is having lean and robust processes. This is the only way of using your resources optimally while having complete control of your operations. We examine your processes using the best techniques to identify wastes and risks, and summarize our findings in a way that you can easily use our assessment as the guideline for your next continuous improvement projects.",
           "features": [
             {
               "name": "Process maps",

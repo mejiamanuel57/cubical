@@ -25,7 +25,6 @@ export default new Router({
         selector: to.hash // scroll to the hash
       }
     }
-
     return { x: 0, y: 0 } // scroll to the top
   }
 })
