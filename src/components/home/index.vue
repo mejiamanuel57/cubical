@@ -18,13 +18,11 @@
           </v-container>
         </v-parallax>
       </v-flex>
-
       <v-flex xs12 class="mt-5">
         <h4 class="display-1 text-xs-center accent--text">
           Services
         </h4>
       </v-flex>
-
       <v-flex xs12>
         <v-container fluid grid-list-md text-center>
           <v-layout wrap>
@@ -61,3 +59,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.juicer-feed h1.referral a {
+  visibility: hidden;
+}
+</style>

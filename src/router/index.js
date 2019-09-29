@@ -19,6 +19,7 @@ const routes = [
 export default new Router({
   routes,
   mode: 'history',
+  base: '/cubical/',
   scrollBehavior (to, from, savedPosition) {
     if (to.hash) {
       return {
