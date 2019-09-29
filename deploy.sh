@@ -1,21 +1,24 @@
-#!/usr/bin/env sh
-
 # abort on errors
 set -e
 
 # build
+echo Linting..
+npm run lint
+echo Building. this may take a minute...
 npm run build
 
 # navigate into the build output directory
 cd dist
 
 # if you are deploying to a custom domain
-echo 'cubicalconsulting.com' > CNAME
+ echo 'cubicalconsulting.com' > CNAME
 
-cd ..
+echo Deploying..
+git init
+git add -A
+git commit -m 'deploy'
 
-git checkout gh-pages
+# deploy
+git push -f https://github.com/mejiamanuel57/cubical.git gh-pages
 
-git add -f dist && git commit -m "deploy"
-
-git push origin gh-pages
+cd -
