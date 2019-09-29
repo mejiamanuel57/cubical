@@ -14,6 +14,6 @@ echo 'cubicalconsulting.com' > CNAME
 
 cd ..
 
-git add dist && git commit -m "deploy"
+git add -f dist && git commit -m "deploy"
 
-git subtree push --prefix dist origin gh-pages
+git subtree push -f --prefix dist origin gh-pages
