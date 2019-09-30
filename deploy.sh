@@ -14,11 +14,10 @@ cd docs
  echo 'cubicalconsulting.com' > CNAME
 
 # echo Deploying..
-# git init
-# git add -A
-# git commit -m 'deploy'
+git add -A
+git commit -m 'deploy'
 
 # deploy
-# git push -f https://github.com/mejiamanuel57/cubical.git gh-pages
+git push -f https://github.com/mejiamanuel57/cubical.git master
 
 cd -
