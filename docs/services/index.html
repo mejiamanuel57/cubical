@@ -1,0 +1,561 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="width=device-width,initial-scale=1" name="viewport"><link href="/favicon.ico" rel="icon"><title>Cubical</title><link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" rel="stylesheet"><link href="/css/app.bc0e34c5.css" rel="preload" as="style"><link href="/css/chunk-vendors.2fc0bde2.css" rel="preload" as="style"><link href="/js/app.0f8da219.js" rel="preload" as="script"><link href="/js/chunk-vendors.92d952ea.js" rel="preload" as="script"><link href="/css/chunk-vendors.2fc0bde2.css" rel="stylesheet"><link href="/css/app.bc0e34c5.css" rel="stylesheet"><style id="vuetify-theme-stylesheet" type="text/css">.v-application a { color: #175b5b; }
+.v-application .primary {
+  background-color: #175b5b !important;
+  border-color: #175b5b !important;
+}
+.v-application .primary--text {
+  color: #175b5b !important;
+  caret-color: #175b5b !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #9fdfdf !important;
+  border-color: #9fdfdf !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #9fdfdf !important;
+  caret-color: #9fdfdf !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #84c3c3 !important;
+  border-color: #84c3c3 !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #84c3c3 !important;
+  caret-color: #84c3c3 !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #69a8a7 !important;
+  border-color: #69a8a7 !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #69a8a7 !important;
+  caret-color: #69a8a7 !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #4f8e8d !important;
+  border-color: #4f8e8d !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #4f8e8d !important;
+  caret-color: #4f8e8d !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #347474 !important;
+  border-color: #347474 !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #347474 !important;
+  caret-color: #347474 !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #004344 !important;
+  border-color: #004344 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #004344 !important;
+  caret-color: #004344 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #002d2d !important;
+  border-color: #002d2d !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #002d2d !important;
+  caret-color: #002d2d !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #001a19 !important;
+  border-color: #001a19 !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #001a19 !important;
+  caret-color: #001a19 !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .secondary {
+  background-color: #15975a !important;
+  border-color: #15975a !important;
+}
+.v-application .secondary--text {
+  color: #15975a !important;
+  caret-color: #15975a !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #b3ffdf !important;
+  border-color: #b3ffdf !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #b3ffdf !important;
+  caret-color: #b3ffdf !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #96ffc3 !important;
+  border-color: #96ffc3 !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #96ffc3 !important;
+  caret-color: #96ffc3 !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #79eba7 !important;
+  border-color: #79eba7 !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #79eba7 !important;
+  caret-color: #79eba7 !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #5cce8d !important;
+  border-color: #5cce8d !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #5cce8d !important;
+  caret-color: #5cce8d !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #3db273 !important;
+  border-color: #3db273 !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #3db273 !important;
+  caret-color: #3db273 !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #007c42 !important;
+  border-color: #007c42 !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #007c42 !important;
+  caret-color: #007c42 !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #00632b !important;
+  border-color: #00632b !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #00632b !important;
+  caret-color: #00632b !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #004a15 !important;
+  border-color: #004a15 !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #004a15 !important;
+  caret-color: #004a15 !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #003200 !important;
+  border-color: #003200 !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #003200 !important;
+  caret-color: #003200 !important;
+}
+.v-application .accent {
+  background-color: #1d2923 !important;
+  border-color: #1d2923 !important;
+}
+.v-application .accent--text {
+  color: #1d2923 !important;
+  caret-color: #1d2923 !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #93a29a !important;
+  border-color: #93a29a !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #93a29a !important;
+  caret-color: #93a29a !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #7a8880 !important;
+  border-color: #7a8880 !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #7a8880 !important;
+  caret-color: #7a8880 !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #616f67 !important;
+  border-color: #616f67 !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #616f67 !important;
+  caret-color: #616f67 !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #49564f !important;
+  border-color: #49564f !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #49564f !important;
+  caret-color: #49564f !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #323f38 !important;
+  border-color: #323f38 !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #323f38 !important;
+  caret-color: #323f38 !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #04150d !important;
+  border-color: #04150d !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #04150d !important;
+  caret-color: #04150d !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .error {
+  background-color: #b71c1c !important;
+  border-color: #b71c1c !important;
+}
+.v-application .error--text {
+  color: #b71c1c !important;
+  caret-color: #b71c1c !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffaf95 !important;
+  border-color: #ffaf95 !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffaf95 !important;
+  caret-color: #ffaf95 !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ff937b !important;
+  border-color: #ff937b !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ff937b !important;
+  caret-color: #ff937b !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ff7762 !important;
+  border-color: #ff7762 !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ff7762 !important;
+  caret-color: #ff7762 !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #f75b4a !important;
+  border-color: #f75b4a !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #f75b4a !important;
+  caret-color: #f75b4a !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #d73e32 !important;
+  border-color: #d73e32 !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #d73e32 !important;
+  caret-color: #d73e32 !important;
+}
+.v-application .error.darken-1 {
+  background-color: #980005 !important;
+  border-color: #980005 !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #980005 !important;
+  caret-color: #980005 !important;
+}
+.v-application .error.darken-2 {
+  background-color: #7a0000 !important;
+  border-color: #7a0000 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #7a0000 !important;
+  caret-color: #7a0000 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #5e0000 !important;
+  border-color: #5e0000 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #5e0000 !important;
+  caret-color: #5e0000 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #480000 !important;
+  border-color: #480000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #480000 !important;
+  caret-color: #480000 !important;
+}
+.v-application .info {
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+.v-application .info--text {
+  color: #2196f3 !important;
+  caret-color: #2196f3 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #d4ffff !important;
+  border-color: #d4ffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #d4ffff !important;
+  caret-color: #d4ffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #b5ffff !important;
+  border-color: #b5ffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #b5ffff !important;
+  caret-color: #b5ffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #95e8ff !important;
+  border-color: #95e8ff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #95e8ff !important;
+  caret-color: #95e8ff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #75ccff !important;
+  border-color: #75ccff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #75ccff !important;
+  caret-color: #75ccff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #51b0ff !important;
+  border-color: #51b0ff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #51b0ff !important;
+  caret-color: #51b0ff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #007cd6 !important;
+  border-color: #007cd6 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #007cd6 !important;
+  caret-color: #007cd6 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #0064ba !important;
+  border-color: #0064ba !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #0064ba !important;
+  caret-color: #0064ba !important;
+}
+.v-application .info.darken-3 {
+  background-color: #004d9f !important;
+  border-color: #004d9f !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #004d9f !important;
+  caret-color: #004d9f !important;
+}
+.v-application .info.darken-4 {
+  background-color: #003784 !important;
+  border-color: #003784 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #003784 !important;
+  caret-color: #003784 !important;
+}
+.v-application .success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.v-application .success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.v-application .success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.v-application .warning {
+  background-color: #fb8c00 !important;
+  border-color: #fb8c00 !important;
+}
+.v-application .warning--text {
+  color: #fb8c00 !important;
+  caret-color: #fb8c00 !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffff9e !important;
+  border-color: #ffff9e !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffff9e !important;
+  caret-color: #ffff9e !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #fffb82 !important;
+  border-color: #fffb82 !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #fffb82 !important;
+  caret-color: #fffb82 !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffdf67 !important;
+  border-color: #ffdf67 !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffdf67 !important;
+  caret-color: #ffdf67 !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffc24b !important;
+  border-color: #ffc24b !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffc24b !important;
+  caret-color: #ffc24b !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffa72d !important;
+  border-color: #ffa72d !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffa72d !important;
+  caret-color: #ffa72d !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #db7200 !important;
+  border-color: #db7200 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #db7200 !important;
+  caret-color: #db7200 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #bb5900 !important;
+  border-color: #bb5900 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #bb5900 !important;
+  caret-color: #bb5900 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #9d4000 !important;
+  border-color: #9d4000 !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #9d4000 !important;
+  caret-color: #9d4000 !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #802700 !important;
+  border-color: #802700 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #802700 !important;
+  caret-color: #802700 !important;
+}</style></head><body><noscript><strong>We're sorry but cubical doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div class="v-application v-application--is-ltr theme--light" id="app" data-app="true"><div class="v-application--wrap"><div><header class="v-sheet v-sheet--tile theme--light v-toolbar v-app-bar" data-booted="true" style="margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"><div class="v-toolbar__content" style="height: 56px;"><div class="v-toolbar__title"><a class="router-link-active" href="/"><img class="imglogo" src="/img/CubicalLogoHorizontal.faa3270c.png"></a></div><div class="flex-grow-1"></div><div class="hidden-sm-and-down"><a class="v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" href="/"><span class="v-btn__content">home </span></a><a class="v-btn--active v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" href="/services"><span class="v-btn__content">services </span></a><a class="v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" href="/contact"><span class="v-btn__content">contact</span></a></div><button class="v-app-bar__nav-icon hidden-md-and-up v-btn v-btn--fab v-btn--flat v-btn--icon v-btn--round theme--light v-size--default" type="button"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-menu theme--light"></i></span></button></div></header><aside class="v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile v-navigation-drawer--right v-navigation-drawer--temporary theme--light" data-booted="true" style="height: 100%; top: 0px; transform: translateX(100%); width: 256px;"><div class="v-navigation-drawer__content"><div class="v-list v-sheet v-sheet--tile theme--light v-list--dense v-list--nav" role="list"><a class="v-list-item v-list-item--link theme--light" href="/" tabindex="0"><div class="v-list-item__content"><div class="v-list-item__title">home</div></div></a><a class="v-list-item--active v-list-item v-list-item--link theme--light" href="/services" tabindex="0"><div class="v-list-item__content"><div class="v-list-item__title">services</div></div></a><a class="v-list-item v-list-item--link theme--light" href="/contact" tabindex="0"><div class="v-list-item__content"><div class="v-list-item__title">contact</div></div></a></div></div><div class="v-navigation-drawer__border"></div></aside></div><main class="v-content" data-booted="true" style="padding: 0px;"><div class="v-content__wrap"><div><div class="layout wrap"><div class="flex mt-5 text-center xs12"><h3 class="display-2 primary--text">Services</h3></div><div class="flex xs12"><div class="container container--fluid grid-list-md"><div class="layout wrap"><div class="flex xs12 md6 offset-md-3 mb-5"><div class="v-card v-card--outlined v-sheet theme--light" style="min-height: 250px;" id="Planning360"><h4 class="display-1 text-xs-center primary white--text"><i aria-hidden="true" class="v-icon notranslate ml-2 white--text mdi mdi-cached theme--light" style="font-size: 40px;"></i> Planning 360</h4><div class="container"><p>Planning can make the difference between a successful year/project and an unsuccessful one.With a robust process for gathering information, brainstorming ideas, defining the right strategy, financial modelling, and scenario testing, in Cubical we dominate the art of planning.</p><ul><li>Strategy revision/definition <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Action plan <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Financial models <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Scenario testing <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>KPI definition <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Risks and mitigation plan <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Decision making matrix <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li></ul><div class="v-card__actions justify-center"><a class="v-btn v-btn--contained v-btn--router theme--light v-size--default secondary" href="/contact"><span class="v-btn__content">Schedule a Meeting</span></a></div></div></div></div><div class="flex xs12 md6 offset-md-3 mb-5"><div class="v-card v-card--outlined v-sheet theme--light" style="min-height: 250px;" id="RollingForecast"><h4 class="display-1 text-xs-center primary white--text"><i aria-hidden="true" class="v-icon notranslate ml-2 white--text mdi mdi-finance theme--light" style="font-size: 40px;"></i> Rolling Forecast</h4><div class="container"><p>Plans are not supposed to stay at a binder in your bookshelf. Business plans need to be revised and your tactics must be adapted as new opportunities and challenges are encountered in your way to success. At Cubical, we provide you with monthly reports, forecast adjustments, and management presentations to make sure you can react on time and get to your desired bottom line.</p><ul><li>Real vs Projected performance reports <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Forecast Updates <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>KPI reports <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Month Closing report and presentation <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li></ul><div class="v-card__actions justify-center"><a class="v-btn v-btn--contained v-btn--router theme--light v-size--default secondary" href="/contact"><span class="v-btn__content">Schedule a Meeting</span></a></div></div></div></div><div class="flex xs12 md6 offset-md-3 mb-5"><div class="v-card v-card--outlined v-sheet theme--light" style="min-height: 250px;" id="ProcessAssessment"><h4 class="display-1 text-xs-center primary white--text"><i aria-hidden="true" class="v-icon notranslate ml-2 white--text mdi mdi-file-document-box-check theme--light" style="font-size: 40px;"></i> Process Assessment</h4><div class="container"><p>One of the biggest challenges of growing your business is having lean and robust processes. This is the only way of using your resources optimally while having complete control of your operations. We examine your processes using the best techniques to identify wastes and risks, and summarize our findings in a way that you can easily use our assessment as the guideline for your next continuous improvement projects.</p><ul><li>Process maps <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>SWOT Analysis <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Suggested projects by priority <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li></ul><div class="v-card__actions justify-center"><a class="v-btn v-btn--contained v-btn--router theme--light v-size--default secondary" href="/contact"><span class="v-btn__content">Schedule a Meeting</span></a></div></div></div></div><div class="flex xs12 md6 offset-md-3 mb-5"><div class="v-card v-card--outlined v-sheet theme--light" style="min-height: 250px;" id="ProcessOptimization"><h4 class="display-1 text-xs-center primary white--text"><i aria-hidden="true" class="v-icon notranslate ml-2 white--text mdi mdi-settings theme--light" style="font-size: 40px;"></i> Process Optimization</h4><div class="container"><p>Optimizing your processes is not part of your value proposition to clients. It’s ours. Stay focused at your core while we work with your team to streamline your business. From sales and customer services, to production and warehouse, we have the tools to make your dream happen.</p><ul><li>Process maps <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>SWOT Analysis <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Improvement project management <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Standarized operative procedures <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Policies <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li><li>Training and follow up <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li></ul><div class="v-card__actions justify-center"><a class="v-btn v-btn--contained v-btn--router theme--light v-size--default secondary" href="/contact"><span class="v-btn__content">Schedule a Meeting</span></a></div></div></div></div><div class="flex xs12 md6 offset-md-3 mb-5"><div class="v-card v-card--outlined v-sheet theme--light" style="min-height: 250px;" id="Training"><h4 class="display-1 text-xs-center primary white--text"><i aria-hidden="true" class="v-icon notranslate ml-2 white--text mdi mdi-school theme--light" style="font-size: 40px;"></i> Training</h4><div class="container"><p>Cubical training helps you create strategical capabilities in your personnel. This is part of shaping the corporate culture you are striving for. We offer general training as well as customized training for your managers to be experts in Performance Management and Continuous Improvement.</p><ul><li>Change management techniques <span class="v-tooltip v-tooltip--right"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"></div></span><i aria-hidden="true" class="v-icon notranslate mdi mdi-information-outline theme--light secondary--text" style="font-size: 16px;"></i></li></ul><div class="v-card__actions justify-center"><a class="v-btn v-btn--contained v-btn--router theme--light v-size--default secondary" href="/contact"><span class="v-btn__content">Schedule a Meeting</span></a></div></div></div></div></div></div></div></div></div></div></main><footer class="v-footer v-sheet v-sheet--tile theme--dark accent" data-booted="true"><div class="container container--fluid grid-list-md text-center"><div class="layout wrap"><div class="flex xs12"><h4 class="display-1 text-xs-center">Contact us</h4></div><div class="flex xs12"><div class="layout wrap"><div class="flex xs12 md2 offset-md3"><i aria-hidden="true" class="v-icon notranslate mdi mdi-phone theme--dark"></i> 647-554-6883</div><div class="flex xs12 md2"><i aria-hidden="true" class="v-icon notranslate mdi mdi-email theme--dark"></i> info@cubicalconsulting.com</div><div class="flex xs12 md2"><i aria-hidden="true" class="v-icon notranslate mdi mdi-map-marker theme--dark"></i> Toronto,ON</div></div></div></div></div><div class="flex mt-10 text-center xs12">© 2019 <strong>cubicalconsulting.com</strong></div></footer></div></div><script src="/js/chunk-vendors.92d952ea.js"></script><script src="/js/app.0f8da219.js"></script></body></html>
