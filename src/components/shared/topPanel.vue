@@ -31,7 +31,7 @@ export default {
   data () {
     return {
       drawer: false,
-      routes: [{ name: 'Home', path: '/' }, { name: 'Services', path: 'Services' }, { name: 'Contact', path: 'Contact' }]
+      routes: [{ name: 'home', path: '/' }, { name: 'services', path: '/services' }, { name: 'contact', path: '/contact' }]
     }
   }
 }
