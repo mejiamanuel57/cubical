@@ -3,7 +3,7 @@ const PrerenderSPAPlugin = require('prerender-spa-plugin')
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 
 module.exports = {
-  configureWebpack: config => {
+  configureWebpack: (config) => {
     if (process.env.NODE_ENV !== 'production') return
 
     return {
