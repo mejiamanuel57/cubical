@@ -9,16 +9,17 @@ import PageNotFound from '@/components/shared/pageNotFound'
 Vue.use(Router)
 
 const routes = [
-  { path: '/', name: 'Home', component: Home },
-  { path: '/Services', name: 'Services', component: Services },
-  { path: '/About', name: 'About', component: About },
-  { path: '/Contact', name: 'Contact', component: Contact },
-  { path: '*', name: 'PageNotFound', component: PageNotFound }
+  { path: '/', name: 'home', component: Home },
+  { path: '/services', name: 'services', component: Services },
+  { path: '/about', name: 'about', component: About },
+  { path: '/contact', name: 'contact', component: Contact },
+  { path: '*', name: 'pageNotFound', component: PageNotFound }
 ]
 
 export default new Router({
-  routes,
+  base: process.env.BASE_URL,
   mode: 'history',
+  routes,
   scrollBehavior (to, from, savedPosition) {
     if (to.hash) {
       return {
