@@ -1,3 +1,4 @@
+module.exports = { baseUrl: process.env.BASE_URL }
 // const path = require('path')
 // const PrerenderSPAPlugin = require('prerender-spa-plugin')
 // const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
