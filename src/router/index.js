@@ -12,6 +12,7 @@ const routes = [
   { path: '/', name: 'home', component: Home },
   { path: '/services', name: 'services', component: Services },
   { path: '/about', name: 'about', component: About },
+  { path: '/blog', name: 'blog', beforeEnter () { location.href = 'https://blog.cubicalconsulting.com/' } },
   { path: '/contact', name: 'contact', component: Contact },
   { path: '*', name: 'pageNotFound', component: PageNotFound }
 ]
