@@ -6,21 +6,21 @@
           <v-container>
             <h2 class="display-3 mb-3">
               <b>
-                Tailored Business Consulting
+                {{ $t('home.heading') }}
               </b>
             </h2>
             <h3 class="display-1 mb-3">
-              Our mission is to turn your information into strategy
+              {{ $t('home.subheading') }}
             </h3>
             <v-btn color="secondary" large to="/contact">
-              Schedule a Meeting
+              {{ $t('shared.scheduleAMeeting') }}
             </v-btn>
           </v-container>
         </v-parallax>
       </v-flex>
       <v-flex xs12 class="mt-5">
         <h4 class="display-1 text-xs-center accent--text">
-          Services
+          {{ $t('shared.servicesTitle') }}
         </h4>
       </v-flex>
       <v-flex xs12>
@@ -30,14 +30,14 @@
               <v-card outlined min-height="280">
                 <v-container>
                   <v-icon x-large color="secondary">
-                    {{ service.icon }}
+                    {{ $t(`shared.services[${index}].icon`) }}
                   </v-icon>
                   <h5 class="headline text-xs-center primary--text">
-                    {{ service.name }}
+                    {{ $t(`shared.services[${index}].name`) }}
                   </h5>
-                  <p>{{ service.description }}</p>
+                  <p>{{ $t(`shared.services[${index}].description`) }}</p>
                   <v-btn color="secondary" large text :to="`/services#${service.name.replace(/ /g, '')}`">
-                    Read More
+                    {{ $t('shared.readMode') }}
                   </v-btn>
                 </v-container>
               </v-card>
@@ -50,11 +50,10 @@
 </template>
 
 <script>
-import data from '@/data/data.json'
 export default {
   data () {
     return {
-      services: data.services
+      services: this.$t('shared.services')
     }
   }
 }

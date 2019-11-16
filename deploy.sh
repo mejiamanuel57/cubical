@@ -13,11 +13,12 @@ cd docs
 # if you are deploying to a custom domain
  echo 'cubicalconsulting.com' > CNAME
 
-# echo Deploying..
 git add -A
-git commit -m 'deploy'
+echo add commit message and git push!..
 
-# deploy
-git push -f https://github.com/mejiamanuel57/cubical.git master
+# git commit -m 'deploy'
+
+# # deploy
+# git push -f https://github.com/mejiamanuel57/cubical.git master
 
 cd -

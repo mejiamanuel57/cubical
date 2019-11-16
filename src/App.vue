@@ -18,8 +18,10 @@ export default {
     TopPanel,
     Footer
   },
-  data: () => ({
-    //
-  })
+  data () {
+    return {
+      klk: this.$t('shared.topPanel.nav.blog')
+    }
+  }
 }
 </script>
