@@ -1,10 +1,5 @@
 <template>
   <v-row no-gutters>
-    <v-col cols="12" class="mt-5 text-center">
-      <h3 class="display-2 primary--text">
-        {{ $t('shared.servicesTitle') }}
-      </h3>
-    </v-col>
     <v-col cols="12">
       <v-container fluid grid-list-md>
         <v-row no-gutters>
