@@ -18,7 +18,7 @@ cd -
 
 # deploy
 git add -A
-read -p "enter commit message: "  message 
+read -p "enter git commit message: "  message 
 git commit -m ''"$message"''
-# git push -f https://github.com/mejiamanuel57/cubical.git master
+git push -f https://github.com/mejiamanuel57/cubical.git master
 
