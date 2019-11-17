@@ -33,6 +33,7 @@ export default {
       drawer: false,
       routes: [
         { name: 'home', path: '/' },
+        { name: 'about', path: '/about' },
         { name: 'services', path: '/services' },
         { name: 'blog', path: '/blog' },
         { name: 'contact', path: '/contact' }

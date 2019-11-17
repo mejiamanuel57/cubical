@@ -10,15 +10,15 @@ npm run build
 # navigate into the build output directory
 cd docs
 
-# if you are deploying to a custom domain
+# remover comment if you are deploying to a custom domain
  echo 'cubicalconsulting.com' > CNAME
 
+# getting out of the build output directory
+cd -
+
+# deploy
 git add -A
-echo add commit message and git push!..
-
-# git commit -m 'deploy'
-
-# # deploy
+read -p "enter commit message: "  message 
+git commit -m ''"$message"''
 # git push -f https://github.com/mejiamanuel57/cubical.git master
 
-cd -
