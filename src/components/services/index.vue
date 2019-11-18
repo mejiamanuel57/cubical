@@ -1,9 +1,9 @@
 <template>
   <v-row no-gutters>
     <v-col cols="12">
-      <v-container fluid grid-list-md>
-        <v-row no-gutters>
-          <v-col v-for="(service,index) in services" :key="index" cols="6" xs="12" md6 offset="3" class="mb-5">
+      <v-container fluid>
+        <v-row no-gutters justify="center">
+          <v-col v-for="(service,index) in services" :key="index" cols="12" sm="8" class="mb-5">
             <v-card :id="service.name.replace(/ /g, '')" outlined min-height="250">
               <h4 class="display-1 text-xs-center primary white--text">
                 <v-icon x-large class="ml-2 white--text">

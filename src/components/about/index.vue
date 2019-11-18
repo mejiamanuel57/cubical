@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-card>
         <v-row no-gutters>
-          <v-col cols="7" xs="12">
+          <v-col cols="12" md="7">
             <v-container fluid>
               <v-img
                 :src="require('@/assets/cubical-about-us.jpg')"
@@ -16,7 +16,7 @@
               </v-img>
             </v-container>
           </v-col>
-          <v-col cols="5" xs="12">
+          <v-col cols="12" md="5">
             <v-container>
               <h4 class="display-1 text-center mb-3">
                 Why Cubical?

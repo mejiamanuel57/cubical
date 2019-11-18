@@ -23,9 +23,9 @@
       </h4>
     </v-col>
     <v-col cols="12">
-      <v-container fluid grid-list-md text-center>
+      <v-container fluid>
         <v-row no-gutters>
-          <v-col v-for="(service,index) in services" :key="index" cols="6">
+          <v-col v-for="(service,index) in services" :key="index" cols="12" md="6">
             <v-card class="ma-1" outlined min-height="280">
               <v-container>
                 <v-icon x-large color="secondary">
