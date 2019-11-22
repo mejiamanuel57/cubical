@@ -42,23 +42,32 @@
               </h4>
             </v-col>
             <v-col cols="12">
-              <v-card>
-                <v-row>
-                  <v-col cols="12" md="7">
-                    <v-img
-                      :src="require('@/assets/cubical-success.jpg')"
-                    />
-                  </v-col>
-                  <v-col cols="12" md="5" class="pa-4">
-                    <h4>INVENTORY - THE SIMPLER, THE BETTER</h4>
-                    <p>
-                      Your inventory can either be your most strategic asset or your biggest nightmare. If
-                      your company is a retailer, wholesaler, and/or manufacturer, your sales depend on
-                      how well managed is your inventory. Having a lot of inventory is risky and
-                      expensive, while not having enough can handicap your growth.We helped a
-                      wholesaler overcome the tragedy of overstock, out of stocks, accounts payables,
-                      and constant complaints from clients.
-                    </p>
+              <v-expansion-panels>
+                <v-expansion-panel>
+                  <v-expansion-panel-header>
+                    <v-row>
+                      <v-col cols="12" md="2">
+                        <v-img
+                          :src="require('@/assets/cubical-success.jpg')"
+                          max-width="450"
+                        />
+                      </v-col>
+                      <v-col cols="12" md="10">
+                        <h4 class="title">
+                          INVENTORY - THE SIMPLER, THE BETTER
+                        </h4>
+                        <p class="body-1">
+                          Your inventory can either be your most strategic asset or your biggest nightmare. If
+                          your company is a retailer, wholesaler, and/or manufacturer, your sales depend on
+                          how well managed is your inventory. Having a lot of inventory is risky and
+                          expensive, while not having enough can handicap your growth.We helped a
+                          wholesaler overcome the tragedy of overstock, out of stocks, accounts payables,
+                          and constant complaints from clients.
+                        </p>
+                      </v-col>
+                    </v-row>
+                  </v-expansion-panel-header>
+                  <v-expansion-panel-content>
                     <p>
                       Seymeh, an importer and wholesaler of electrical supplies for
                       construction, was struggling with constant complaints from the
@@ -118,9 +127,9 @@
                       conversion cycle by 60%. All this, without dropping the sales
                       number.
                     </p>
-                  </v-col>
-                </v-row>
-              </v-card>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+              </v-expansion-panels>
             </v-col>
           </v-row>
         </v-card>

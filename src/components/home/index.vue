@@ -1,7 +1,7 @@
 <template>
   <v-row no-gutters class="text-center">
     <v-col cols="12">
-      <v-parallax :src="require('@/assets/section.jpg')" height="580">
+      <v-parallax :src="require('@/assets/section1.jpg')" height="580">
         <v-container>
           <h2 class="display-3 mb-3">
             <b>
