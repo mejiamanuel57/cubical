@@ -146,6 +146,48 @@
                 "description": "Change management is crucial to ensure successful implementations. We training your key players so they become game changers within your organization and dominate the techniques to create an innovative and creative culture."
               }
             ]
+          },
+          {
+            "name": "Inventory Assessment",
+            "icon": "mdi-package-variant-closed",
+            "description": "Having frequent out stocks? Having trouble with your inventory? Don’t know which of your products are fast/slow movers? At Cubical we can help! With vast experience at inventory procurement, purchasing & planning, we can help you detect your inventory problems and develop with you a solid strategy to improve your supply chain.",
+            "features": [
+              {
+                "name": "Company assessment",
+                "description": "Understand your products portfolio, strategies, and short-term and long-term goals."
+              },
+              {
+                "name": "Sourcing scan",
+                "description": "Your purchasing and stocking methods are analyzed to identify opportunities for improvement and estimate the impact of implementation."
+              },
+              {
+                "name": "Stock scan",
+                "description": "We look at your current inventory and recommend purchasing and/or selling plans to optimize your product mix and stock levels."
+              },
+              {
+                "name": "Recommended action plan",
+                "description": "We advise you on how you can improve your process."
+              }
+            ]
+          },
+          {
+            "name": "Inventory Optimization",
+            "icon": "mdi-clipboard-list-outline",
+            "description": "Are you currently unsatisfied with your inventory management? Let us be part of your company and develop with you the right path to have an efficient and agile supply chain while you focus in your core departments and we manage your inventory using the right tools, methods and time.",
+            "features": [
+              {
+                "name": "Monthly purchasing plan",
+                "description": "Every month we send you a report with the purchasing plan and we revise it with you biweekly considering the status given by the suppliers."
+              },
+              {
+                "name": "KPI definition and reporting",
+                "description": "We define indicators and set up reports to track your progress."
+              },
+              {
+                "name": "Risk plan",
+                "description": "We identify those factors that could affect the plan and develop tactics to solve them."
+              }
+            ]
           }
         ]
     }
