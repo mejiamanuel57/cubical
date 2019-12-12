@@ -40,8 +40,8 @@
         </v-container>
       </v-card>
     </v-col>
-    <v-col cols="12" class="mt-5">
-      <h4 class="display-1 text-xs-center accent--text">
+    <v-col cols="12" class="mt-10">
+      <h4 class="display-1 text-xs-center primary--text">
         {{ $t('shared.servicesTitle') }}
       </h4>
     </v-col>
@@ -51,7 +51,7 @@
           <v-col v-for="(service,index) in services" :key="index" cols="12" md="6">
             <v-card class="ma-1" outlined min-height="280">
               <v-container>
-                <v-icon x-large color="secondary">
+                <v-icon x-large color="primary">
                   {{ $t(`shared.services[${index}].icon`) }}
                 </v-icon>
                 <h5 class="headline text-xs-center primary--text">
