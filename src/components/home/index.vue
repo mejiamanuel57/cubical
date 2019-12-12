@@ -17,6 +17,29 @@
         </v-container>
       </v-parallax>
     </v-col>
+    <v-col cols="12">
+      <v-card color="primary" class="white--text">
+        <v-container fluid>
+          <v-row>
+            <v-col cols="12">
+              <h4 class="display-1 text-xs-center">
+                {{ $t('shared.successFactorsTitle') }}
+              </h4>
+            </v-col>
+          </v-row>
+          <v-row class="mb-10">
+            <v-col v-for="(factor,index) in successFactors" :key="index" cols="6" md="3">
+              <v-icon class="display-2" x-large color="white">
+                {{ $t(`shared.successFactors[${index}].icon`) }}
+              </v-icon>
+              <h5 class="headline text-xs-center white--text">
+                {{ $t(`shared.successFactors[${index}].name`) }}
+              </h5>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-card>
+    </v-col>
     <v-col cols="12" class="mt-5">
       <h4 class="display-1 text-xs-center accent--text">
         {{ $t('shared.servicesTitle') }}
@@ -51,7 +74,8 @@
 export default {
   data () {
     return {
-      services: this.$t('shared.services')
+      services: this.$t('shared.services'),
+      successFactors: this.$t('shared.successFactors')
     }
   }
 }

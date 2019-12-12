@@ -189,6 +189,13 @@
               }
             ]
           }
+        ],
+        "successFactorsTitle": "Success Factors",
+        "successFactors":[
+          {"name": "Qualified & Experienced", "icon": "mdi-file-certificate-outline"},
+          {"name": "Agile & Fast Execution", "icon": "mdi-timer-sand"},
+          {"name": "Excellent Customer Service", "icon": "mdi-headset"},
+          {"name": "Compensations for Achievement", "icon": "mdi-trophy"}
         ]
     }
 }
