@@ -1,58 +1,76 @@
 <template>
   <v-container fluid>
-    <v-row>
-      <v-col cols="12">
+    <v-row align="center" justify="center">
+      <v-col cols="12" md="8">
         <v-card>
-          <v-row no-gutters>
-            <v-col cols="12" md="7">
-              <v-img
-                :src="require('@/assets/cubical-about-us.jpg')"
-              >
-                <h1 class="display-1 text-center pa-5">
-                  Our goal is to help you achieve your business goals in the best possible way. The more you achieve, the more we grow.
-                </h1>
-              </v-img>
-            </v-col>
-            <v-col cols="12" md="5" class="pa-4">
-              <h4 class="display-1 text-center mb-3">
-                Why Cubical?
-              </h4>
+          <h4 class="display-1 pa-2 text-center primary white--text">
+            Why Cubical?
+          </h4>
+          <v-row no-gutters align="center" justify="center">
+            <v-col cols="12" class="pa-4">
               <p>
-                We have found ways to make small and medium size companies as well-planned and robust and big corporations. We are an experienced team passionate about making businesses more profitable, while ensuring the boss can take his/her vacations with peace of mind.
+                We have found ways to make small and medium size companies as well-planned and robust as big
+                corporations. We are an experienced team passionate about making businesses more profitable,
+                while ensuring the boss can take vacations with peace of mind.
               </p>
+              <p>
+                Our areas of expertise are <b> Business Planning &amp; Analysis, Operations, and Supply Chain
+                  Management</b>.
+              </p>
+              <p>
+                We work with a broad variety of clients from different industries with one or more of these factors
+                in common:
+              </p>
+              <ol>
+                <li>
+                  <b>GROWTH.</b> We help companies by studying the feasibility and expected returns of their
+                  initiatives to grow revenue. Cubical offers agile action plans, dashboards and contingency
+                  plans in case the competitive scenario changes along the way.
+                </li>
+                <li>
+                  <b>WORKING CAPITAL INTENSIVE.</b> Companies managing inventory, account receivables, and
+                  relevant debt levels, go to Cubical to ensure having a healthy cash flow. We help them
+                  optimize their supply chain and maintain their forecasts up to date.
+                </li>
+                <li>
+                  <b>DESIRE OF LEANER PROCESSES.</b> Cubical is the perfect partner for companies facing the
+                  challenge of innovating to be faster and more robust without shifting the focus from their
+                  core expertise. We cut the wastes hidden in their processes, and successfully implement
+                  changes without affecting their operations.
+                </li>
+              </ol>
+              <br>
               <p>
                 You can rely on us because:
               </p>
-              <ul>
-                <li>Each member of our team is specialized in a business area to ensure the best recommendations are given</li>
-                <li>Our implementations are agile, adapting the action plan to the clients’ structure and pace</li>
-                <li>Our payment plans are designed around milestones achieved, not crazy hourly rates</li>
-                <li>We provide excellent personalized customer service</li>
-              </ul>
+              <p>✔ Each member of our team is specialized in a business area to ensure the best recommendations are given</p>
+              <p>✔ Our implementations are agile, adapting the action plan to the clients’ structure and pace</p>
+              <p>✔ Our payment plans are designed around milestones achieved, not crazy hourly rates</p>
+              <p>✔ We provide excellent personalized customer service</p>
             </v-col>
           </v-row>
         </v-card>
       </v-col>
-      <v-col cols="12">
+    </v-row>
+    <v-row align="center" justify="center">
+      <v-col cols="12" md="8">
         <v-card>
+          <h4 class="display-1 pa-2 text-center primary white--text">
+            Case Studies
+          </h4>
           <v-row>
-            <v-col cols="12">
-              <h4 class="display-1 text-center mb-3">
-                Case Studies
-              </h4>
-            </v-col>
             <v-col cols="12">
               <v-expansion-panels>
                 <v-expansion-panel>
                   <v-expansion-panel-header>
                     <v-row>
-                      <v-col cols="12" md="2">
+                      <v-col cols="12" md="4">
                         <v-img
                           :src="require('@/assets/cubical-success.jpg')"
                           max-width="450"
                         />
                       </v-col>
-                      <v-col cols="12" md="10">
+                      <v-col cols="12" md="8">
                         <h4 class="title">
                           INVENTORY - THE SIMPLER, THE BETTER
                         </h4>

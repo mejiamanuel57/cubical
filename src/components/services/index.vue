@@ -5,7 +5,7 @@
         <v-row no-gutters justify="center">
           <v-col v-for="(service,index) in services" :key="index" cols="12" sm="8" class="mb-5">
             <v-card :id="service.name.replace(/ /g, '')" outlined min-height="250">
-              <h4 class="display-1 text-xs-center primary white--text">
+              <h4 class="display-1 pa-2 text-xs-center primary white--text">
                 <v-icon x-large class="ml-2 white--text">
                   {{ $t(`shared.services[${index}].icon`) }}
                 </v-icon>
