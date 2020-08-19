@@ -10,7 +10,7 @@
         <v-col cols="12">
           <v-row justify="center" align="center">
             <v-col cols="12">
-              <v-icon>mdi-phone</v-icon> 647-554-6883 | 809-968-9410
+              <v-icon>mdi-phone</v-icon> CA: 647-554-6883 | DO: 809-968-9410
             </v-col>
             <v-col cols="12">
               <v-icon>mdi-email</v-icon> info@cubicalconsulting.com
